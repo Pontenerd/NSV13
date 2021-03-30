@@ -222,6 +222,28 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/pilot
 	armor = list("melee" = 20, "bullet" = 12, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 90, "acid" = 75)
 
+	/obj/item/clothing/head/helmet/space/hardsuit/chungushelmet
+	name = "easter bunny hardsuit helmet"
+	icon = 'nsv13/icons/obj/clothing/hats.dmi'
+	alternate_worn_icon = 'nsv13/icons/mob/head.dmi'
+	icon_state = "bigchungushead"
+	item_state = "bigchungushead"
+	item_color = "bigchungushead"
+	desc = "God is dead and I killed Her."
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 5)
+
+/obj/item/clothing/suit/space/hardsuit/chungus
+	name = "easter bunny hardsuit"
+	desc = "A bunny suit that is rather large. Warranty excludes lynch mobs."
+	icon = 'nsv13/icons/obj/clothing/suits.dmi'
+	alternate_worn_icon = 'nsv13/icons/mob/suit.dmi'
+	icon_state = "chungus"
+	item_state = "chungus"
+	item_color = "chungus"
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/chungushelmet
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
+
+
 /obj/item/clothing/under/ship/pilot
 	name = "Pilot's combat jumpsuit"
 	desc = "A lightweight jumpsuit with harness points and carabiners which is designed to be worn with a pilot's flightsuit."
@@ -634,7 +656,7 @@
 	icon_state = "trekjacket_formal"
 	item_color = "trekjacket_formal"
 	item_state = "trekjacket_formal"
- 
+
 /datum/action/item_action/nsv13_jacket_swap
 	name = "Toggle jacket style"
 	desc = "Display or hide your departmental colours for your suit jacket by reversing its shoulder pads."
